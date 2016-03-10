@@ -1,0 +1,50 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Soetemooo
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("1 - Abra a pasta raiz do jogo e vá na pasta vcredist. Após feito, execute o instalador que se encontra na pasta 2015 e tente novamente. 2 - Usar a ferramenta 'reparar' é uma opção.");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("1 - Exclua o main.exe da pasta do jogo e deixe que o mesmo seja atualizado novamente. 2 - O antivírus pode estar entrando em conflito com o main.exe, tente adicionar a pasta do jogo às exceções do antivírus. 3 - O main.exe não foi finalizado corretamente e ainda consta como aberto no gerenciador de tarefas, finalize o processo em questão.");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("1 - Instale o C++ 2010. 2 - Instale o C++ 2015. Instale o DirectX 9.0c. 4 - Baixe novamente o GCH.");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("1 - Sempre inicie o jogo pelo launcher.");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("1 - Entre nas propriedades da sua pasta raiz do GCH; Vá na aba 'Segurança'; Verifique se todos os usuários e grupos como 'Sistema, Administradores e você' estão com todas as permissões. Caso eles não estejam, clique em editar e selecione Permitir em todos os casos para todos os usuários.");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("1 - Baixe o executável launcher e coloque a pasta do Grand Chase como excessão no seu antivírus.");
+        }
+    }
+}
