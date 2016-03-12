@@ -84,7 +84,7 @@ namespace Compilado
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Este erro pode ocorrer deviado a falta de arquivos > Instale o C++ 2010 - Instale o C++ 2015 - Instale o DirectX 9.0c. - Baixe novamente o GCH.");
+            MessageBox.Show("Este erro pode ocorrer devido a falta de arquivos > Instale o C++ 2010 - Instale o C++ 2015 - Instale o DirectX 9.0c. - Baixe novamente o GCH.");
         }
 
         private void button5_Click(object sender, EventArgs e)
